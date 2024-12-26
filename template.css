@@ -49,6 +49,29 @@ a.btn--orange:hover {
   background: #f56500;
 }
 
+.fa-position-left {
+  position: absolute;
+  top: calc(50% - .5em);
+  left: 1rem;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+
+/*動画ボタン*/
+
+.btn--red,
+a.btn--red {
+  color: #fff;
+  background-color: #ff0000;
+}
+.btn--red:hover,
+a.btn--red:hover {
+  color: #fff;
+  background: #ff0000;
+}
+
 a.btn--radius {
    border-radius: 100vh;
 }
