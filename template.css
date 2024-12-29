@@ -38,21 +38,15 @@ button.btn {
 
 /*処方箋ボタン*/
 
-.btn--orange,
-a.btn--orange {
+.btn--navy,
+a.btn--navy {
   color: #fff;
-  background-color: #eb6100;
+  background-color: #00334E;
 }
-.btn--orange:hover,
-a.btn--orange:hover {
+.btn--navy:hover,
+a.btn--navy:hover {
   color: #fff;
-  background: #f56500;
-}
-
-.fa-position-left {
-  position: absolute;
-  top: calc(50% - .5em);
-  left: 1rem;
+  background: #004766;
 }
 
 a.btn--radius {
@@ -69,7 +63,7 @@ a.btn--red {
 .btn--red:hover,
 a.btn--red:hover {
   color: #fff;
-  background: #ff0000;
+  background: #CC0000;
 }
 
 a.btn--radius {
