@@ -78,7 +78,22 @@ a[target="_blank"]::after {
   font-weight: 900; /* 必要なら適切なフォントウェイトを指定 */
   margin-left: 5px; /* アイコンとリンクテキストの間にスペースを追加 */
   font-size: 0.8em; /* アイコンのサイズを調整 */
-  color: #fff; /* アイコンの色 */
+}
+
+/* デフォルトは黒色 */
+a[target="_blank"]::after {
+  color: #000000;
+}
+
+/* 親要素が dark-bg の場合は白色に変更 */
+.dark-bg a[target="_blank"]::after {
+  color: #ffffff;
+}
+
+/* 戻るボタンを中央に配置 */
+.button-container {
+  display: flex; /* フレックスボックスを有効化 */
+  justify-content: center; /* 水平方向に中央揃え */
 }
 
 /*その他と主な共通部分は省略*/
